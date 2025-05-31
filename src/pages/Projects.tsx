@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
 import PageTransition from "../components/PageTransition";
@@ -7,7 +8,15 @@ import EventosEIA from "../assets/images/eventoseiabg.jpg";
 import ParcodeLogo from "../assets/images/icono-logo-blanco.webp";
 
 const Projects = () => {
-    const { t } = useTranslation();
+    const { t, language } = useTranslation();
+
+    useEffect(() => {
+        const title =
+            language === "en"
+                ? "My Projects | Simón Parisca - Full Stack Developer"
+                : "Proyectos | Simón Parisca - Desarrollador Full Stack";
+        document.title = title;
+    }, [language, location.pathname]);
 
     const projects = [
         {
@@ -62,8 +71,8 @@ const Projects = () => {
                 "Semantic Kernel",
                 "Apify",
             ],
-            githubUrl: "https://github.com/sparisca05/evagent",
-            liveUrl: "https://evagent.vercel.app",
+            githubUrl: "https://github.com/sparisca05/portafolio",
+            liveUrl: "/",
             featured: true,
         },
     ];
@@ -117,14 +126,16 @@ const Projects = () => {
                             <Github size={20} className="text-white" />
                         </a>
                     )}
-                    <a
-                        href={project.liveUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="p-2 bg-black/50 backdrop-blur-sm rounded-full hover:bg-black/70 transition-colors"
-                    >
-                        <ExternalLink size={20} className="text-white" />
-                    </a>
+                    {project.liveUrl && (
+                        <a
+                            href={project.liveUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="p-2 bg-black/50 backdrop-blur-sm rounded-full hover:bg-black/70 transition-colors"
+                        >
+                            <ExternalLink size={20} className="text-white" />
+                        </a>
+                    )}
                 </div>{" "}
                 {project.featured && (
                     <div className="absolute top-4 left-4">

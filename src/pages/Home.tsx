@@ -1,11 +1,21 @@
+import { useEffect } from "react";
 import { motion } from "framer-motion";
 import { ChevronDown, Github, Linkedin, Mail } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import PageTransition from "../components/PageTransition";
 import { useTranslation } from "../hooks/useTranslation";
 
 const Home = () => {
     const { t, language } = useTranslation();
+    const location = useLocation();
+
+    useEffect(() => {
+        const title =
+            language === "en"
+                ? "Simón Parisca - Full Stack Developer"
+                : "Simón Parisca - Desarrollador Full Stack";
+        document.title = title;
+    }, [language, location.pathname]);
 
     const handleDownloadCV = () => {
         // Choose CV based on language

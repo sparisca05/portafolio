@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { motion } from "framer-motion";
 import { Cloud, Code, Database, Globe, BotIcon } from "lucide-react";
 import PageTransition from "../components/PageTransition";
@@ -5,7 +6,15 @@ import { useTranslation } from "../hooks/useTranslation";
 import profileImage from "../assets/images/mypic.jpeg";
 
 const About = () => {
-    const { t } = useTranslation();
+    const { t, language } = useTranslation();
+
+    useEffect(() => {
+        const title =
+            language === "en"
+                ? "About Me | Simón Parisca - Full Stack Developer"
+                : "Acerca de | Simón Parisca - Desarrollador Full Stack";
+        document.title = title;
+    }, [language]);
 
     const skills = [
         {

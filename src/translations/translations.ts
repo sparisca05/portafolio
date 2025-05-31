@@ -19,7 +19,7 @@ export const translations = {
         
         // Projects page
         myProjects: "Mis Proyectos",
-        projectsDescription: "Una colección de proyectos que demuestran mis habilidades en desarrollo web, desde aplicaciones completas hasta experimentaciones creativas.",
+        projectsDescription: "Mi colección de proyectos en los que demuestro mis habilidades en desarrollo web y de software escalable, desde interfaces modernas hasta aplicaciones robustas y funcionales.",
         featured: "Destacado",
         haveProjectIdea: "¿Tienes una idea de proyecto?",
         collaborateText: "Me encanta colaborar en proyectos innovadores. ¡Hablemos sobre cómo puedo ayudarte a hacer realidad tu visión!",
@@ -106,7 +106,7 @@ export const translations = {
         
         // Projects page
         myProjects: "My Projects",
-        projectsDescription: "A collection of projects that demonstrate my skills in web development, from complete applications to creative experimentations.",
+        projectsDescription: "My collection of projects in which I demonstrate my skills in web and software development, from modern interfaces to robust and functional applications.",
         featured: "Featured",
         haveProjectIdea: "Have a project idea?",
         collaborateText: "I love collaborating on innovative projects. Let's talk about how I can help bring your vision to reality!",

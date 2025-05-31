@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import {
     Mail,
@@ -10,15 +10,16 @@ import {
     CheckCircle,
     AlertCircle,
 } from "lucide-react";
+import emailjs from "@emailjs/browser";
 import PageTransition from "../components/PageTransition";
 import { useTranslation } from "../hooks/useTranslation";
-import emailjs from "@emailjs/browser";
+
 const serviceIdSecret = import.meta.env.VITE_EMAILJS_SERVICE_ID;
 const templateIdSecret = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
 const publicKeySecret = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 const Contact = () => {
-    const { t } = useTranslation();
+    const { t, language } = useTranslation();
     const [formData, setFormData] = useState({
         name: "",
         email: "",
@@ -30,6 +31,14 @@ const Contact = () => {
     const [submitStatus, setSubmitStatus] = useState<
         "idle" | "success" | "error"
     >("idle");
+
+    useEffect(() => {
+        const title =
+            language === "en"
+                ? "Contact | Simón Parisca - Full Stack Developer"
+                : "Contacto | Simón Parisca - Desarrollador Full Stack";
+        document.title = title;
+    }, [language]);
 
     const handleChange = (
         e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
