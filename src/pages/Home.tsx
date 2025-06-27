@@ -10,6 +10,7 @@ const Home = () => {
     const location = useLocation();
 
     useEffect(() => {
+        // Update document title based on language and current path
         const title =
             language === "en"
                 ? "Simón Parisca - Full Stack Developer"
