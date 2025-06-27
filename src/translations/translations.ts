@@ -9,7 +9,7 @@ export const translations = {
         // Home page
         greeting: "Hola, soy [Simón Parisca]",
         role: "Desarrollador Web & Software",
-        heroDescription: "Especializado en crear experiencias digitales modernas y funcionales. Apasionado por el desarrollo frontend y backend con tecnologías como React, SpringBoot y más.",
+        heroDescription: `Especializado en crear experiencias digitales modernas y funcionales. Apasionado por el desarrollo frontend y backend con tecnologías como React, SpringBoot y más. Además, cuento con algo de experiencia en automatizaciones para campañas de marketing, creación de leads y generación de contenido para redes sociales usando Make.`,
         viewProjects: "Ver Proyectos",
         downloadCV: "Descargar CV",
         yearsExperience: "Años de Experiencia",
@@ -38,7 +38,7 @@ export const translations = {
         // About page
         aboutMe: "Sobre Mí",
         aboutDescription1: "Soy un desarrollador apasionado por crear soluciones digitales innovadoras. Con más de 3 años de experiencia en desarrollo web y software, me especializo en tecnologías como React, SpringBoot y TypeScript.",
-        aboutDescription2: "Mi objetivo es crear experiencias de usuario excepcionales que no solo se vean bien, sino que también funcionen de manera fluida y eficiente. Disfruto trabajando en proyectos desafiantes que me permiten aprender y crecer constantemente.",
+        aboutDescription2: "Mi objetivo es crear experiencias de usuario excepcionales que no solo se vean bien, sino que también funcionen de manera fluida y eficiente. Además, tengo experiencia en automatizaciones para campañas de marketing, generación de leads y creación de contenido para redes sociales utilizando Make. Disfruto trabajando en proyectos desafiantes que me permiten aprender y crecer constantemente.",
         aboutDescription3: "Cuando no estoy programando, me gusta hacer deporte, ir al gimnasio o aprender algo nuevo. Siempre estoy buscando nuevas tecnologías y tendencias en el desarrollo para mantenerme actualizado en este campo en constante evolución.",
         technicalSkills: "Habilidades Técnicas",
         experience: "Experiencia",
@@ -85,6 +85,7 @@ export const translations = {
         toolsOthers: "Tools & Others",
         cloud: "Cloud",
         ai: "AI",
+        marketing: "Marketing & Automatización",
     },
     en: {
         // Navbar
@@ -96,7 +97,7 @@ export const translations = {
         // Home page
         greeting: "Hi, I'm [Simón Parisca]",
         role: "Web & Software Developer",
-        heroDescription: "Specialized in creating modern and functional digital experiences. Passionate about frontend and backend development with technologies like React, SpringBoot and more.",
+        heroDescription: "Specialized in creating modern and functional digital experiences. Passionate about frontend and backend development with technologies like React, SpringBoot and more. I also have a bit of experience in marketing campaign automations, lead creation and social media content generation using Make.",
         viewProjects: "View Projects",
         downloadCV: "Download CV",
         yearsExperience: "Years of Experience",
@@ -125,7 +126,7 @@ export const translations = {
         // About page
         aboutMe: "About Me",
         aboutDescription1: "I'm a developer passionate about creating innovative digital solutions. With over 3 years of experience in web and software development, I specialize in technologies like React, SpringBoot and TypeScript.",
-        aboutDescription2: "My goal is to create exceptional user experiences that not only look good, but also work smoothly and efficiently. I enjoy working on challenging projects that allow me to learn and grow constantly.",
+        aboutDescription2: "My goal is to create exceptional user experiences that not only look good, but also work smoothly and efficiently. Additionally, I have experience in marketing campaign automations, lead generation and social media content creation using Make. I enjoy working on challenging projects that allow me to learn and grow constantly.",
         aboutDescription3: "When I'm not coding, I like to play sports, go to the gym or learn something new. I'm always looking for new technologies and trends in development to stay updated in this constantly evolving field.",
         technicalSkills: "Technical Skills",
         experience: "Experience",
@@ -172,5 +173,6 @@ export const translations = {
         toolsOthers: "Tools & Others",
         cloud: "Cloud",
         ai: "AI",
+        marketing: "Marketing & Automation",
     }
 };

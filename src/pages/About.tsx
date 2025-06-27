@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { motion } from "framer-motion";
-import { Cloud, Code, Database, Globe, BotIcon } from "lucide-react";
+import { Cloud, Code, Database, Globe, BotIcon, Megaphone } from "lucide-react";
 import PageTransition from "../components/PageTransition";
 import { useTranslation } from "../hooks/useTranslation";
 import profileImage from "../assets/images/mypic.jpeg";
@@ -76,6 +76,18 @@ const About = () => {
                 "Azure AI Foundry",
                 "Google Gemini AI",
                 "Agentic AI",
+            ],
+        },
+        {
+            categoryKey: "marketing",
+            icon: <Megaphone className="w-6 h-6" />,
+            technologies: [
+                "Make",
+                "Lead Generation",
+                "Social Media Automation",
+                "Marketing Campaigns",
+                "Content Creation",
+                "CRM Integration",
             ],
         },
     ];
