@@ -6,6 +6,7 @@ import { useTranslation } from "../hooks/useTranslation";
 import Evagent from "../assets/images/evagent.webp";
 import EventosEIA from "../assets/images/eventoseiabg.jpg";
 import ParcodeLogo from "../assets/images/icono-logo-blanco.webp";
+import MakeFunnel from "../assets/images/make-funnel.webp";
 
 const Projects = () => {
     const { t, language } = useTranslation();
@@ -21,20 +22,18 @@ const Projects = () => {
     const projects = [
         {
             id: 1,
-            titleKey: "eventosEiaTitle",
-            descriptionKey: "eventosEiaDescription",
-            image: EventosEIA,
+            titleKey: "makeFunnelTitle",
+            descriptionKey: "makeFunnelDescription",
+            image: MakeFunnel,
             technologies: [
-                "React",
-                "SpringBoot",
-                "PostgreSQL",
-                "JWT Auth",
-                "Bootstrap",
-                "Docker",
-                "Cloudinary",
+                "Make",
+                "AI",
+                "Tally",
+                "Notion AI",
+                "GPT-4",
+                "DALLE-3",
             ],
-            githubUrl: "https://github.com/sparisca05/proyectoweb",
-            liveUrl: "https://proyectoweb-liart.vercel.app/",
+            liveUrl: "/",
             featured: true,
         },
         {
@@ -73,6 +72,24 @@ const Projects = () => {
             ],
             githubUrl: "https://github.com/sparisca05/portafolio",
             liveUrl: "/",
+            featured: true,
+        },
+        {
+            id: 5,
+            titleKey: "eventosEiaTitle",
+            descriptionKey: "eventosEiaDescription",
+            image: EventosEIA,
+            technologies: [
+                "React",
+                "SpringBoot",
+                "PostgreSQL",
+                "JWT Auth",
+                "Bootstrap",
+                "Docker",
+                "Cloudinary",
+            ],
+            githubUrl: "https://github.com/sparisca05/proyectoweb",
+            liveUrl: "https://proyectoweb-liart.vercel.app/",
             featured: true,
         },
     ];

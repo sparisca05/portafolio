@@ -34,7 +34,9 @@ export const translations = {
         portfolioDescription: "Portafolio personal que muestra mis proyectos, habilidades y experiencia en desarrollo web. Incluyendo una sección de contacto y enlaces a redes sociales.",
         evagentTitle: "Evagent: AI-Powered LinkedIn Lead Generation Assistant",
         evagentDescription: "Asistente de generación de leads a partir de datos extraídos de LinkedIn potenciado por IA.\n\nEvagent utiliza agentes de IA para interactuar con perfiles de LinkedIn, extraer información relevante y generar leads de alta calidad. \nEsta herramienta está diseñada para optimizar el proceso de ventas y marketing, permitiendo a los usuarios enfocarse en las oportunidades más prometedoras.",
-        
+        makeFunnelTitle: "Funnel de Leads Potenciado por IA con Respuesta Dinámica y Personalización Visual",
+        makeFunnelDescription: "Este Funnel creado usando Make es una herramienta de automatización de marketing que permite a las empresas crear embudos de ventas personalizados y automatizar sus campañas de marketing. Con un flujo sencillo, intuitivo y con potentes integraciones, ayuda a las empresas a optimizar su proceso de ventas y aumentar su tasa de conversión. Con esto no solo “uso la IA”, sino que sé diseñar un proceso de marketing automatizado, coherente y creativo usando IA.",
+
         // About page
         aboutMe: "Sobre Mí",
         aboutDescription1: "Soy un desarrollador apasionado por crear soluciones digitales innovadoras. Con más de 3 años de experiencia en desarrollo web y software, me especializo en tecnologías como React, SpringBoot y TypeScript.",
@@ -122,7 +124,9 @@ export const translations = {
         portfolioDescription: "Personal portfolio showcasing my projects, skills and experience in web development. Including a contact section and social media links.",
         evagentTitle: "Evagent: AI-Powered LinkedIn Lead Generation Assistant",
         evagentDescription: "AI-powered lead generation assistant from LinkedIn extracted data.\n\nEvagent uses AI agents to interact with LinkedIn profiles, extract relevant information and generate high-quality leads. \nThis tool is designed to optimize the sales and marketing process, allowing users to focus on the most promising opportunities.",
-        
+        makeFunnelTitle: "AI-powered Customer Feedback Funnel with Dynamic Response & Visual Personalization",
+        makeFunnelDescription: "This funnel created using Make is a marketing automation tool that allows businesses to create personalized sales funnels and automate their marketing campaigns. With a simple, intuitive flow and powerful integrations, it helps companies optimize their sales process and increase their conversion rate. With this, I not only 'use AI', but I also know how to design a coherent and creative automated marketing process using AI.",
+
         // About page
         aboutMe: "About Me",
         aboutDescription1: "I'm a developer passionate about creating innovative digital solutions. With over 3 years of experience in web and software development, I specialize in technologies like React, SpringBoot and TypeScript.",
