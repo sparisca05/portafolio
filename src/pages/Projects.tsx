@@ -71,7 +71,7 @@ const Projects = () => {
                 "Apify",
             ],
             githubUrl: "https://github.com/sparisca05/portafolio",
-            liveUrl: "/",
+            liveUrl: "https://evagent.vercel.app",
             featured: true,
         },
         {
