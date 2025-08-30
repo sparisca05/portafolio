@@ -7,12 +7,12 @@ export const translations = {
         contact: "Contact",
         
         // Home page
-        greeting: "Hola, soy [Simón Parisca]",
-        role: "Desarrollador Web & Software",
-        heroDescription: `Especializado en crear experiencias digitales modernas y funcionales. Apasionado por el desarrollo frontend y backend con tecnologías como React, SpringBoot y más. Además, cuento con algo de experiencia en automatizaciones para campañas de marketing, creación de leads y generación de contenido para redes sociales usando Make.`,
+        greeting: "Hola, soy Simón Parisca",
+        role: "Desarrollo Web & Software",
+        heroDescription: `Especializado en crear experiencias digitales modernas y funcionales. Apasionado por el desarrollo frontend y backend con tecnologías como React, SpringBoot y más. Además, cuento con conocimientos en automatizaciones y ciberseguridad.`,
         viewProjects: "Ver Proyectos",
         downloadCV: "Descargar CV",
-        yearsExperience: "Años de Experiencia",
+        yearsExperience: "Años de Experiencia Académica",
         completedProjects: "Proyectos Web Completados",
         technologies: "Tecnologías",
         clientSatisfaction: "Satisfacción Cliente",
@@ -88,6 +88,11 @@ export const translations = {
         cloud: "Cloud",
         ai: "AI",
         marketing: "Marketing & Automatización",
+        // Certifications
+        certifications: "Certificaciones",
+        ehcaTitle: "Ethical Hacking Certification Associate (EHCA)",
+        ehcaDate: "Agosto 2025",
+        ehcaDownload: "Ver Certificado",
     },
     en: {
         // Navbar
@@ -97,12 +102,12 @@ export const translations = {
         contact: "Contact",
         
         // Home page
-        greeting: "Hi, I'm [Simón Parisca]",
-        role: "Web & Software Developer",
+        greeting: "Hi, I'm Simón Parisca",
+        role: "Web & Software Development",
         heroDescription: "Specialized in creating modern and functional digital experiences. Passionate about frontend and backend development with technologies like React, SpringBoot and more. I also have a bit of experience in marketing campaign automations, lead creation and social media content generation using Make.",
         viewProjects: "View Projects",
         downloadCV: "Download CV",
-        yearsExperience: "Years of Experience",
+        yearsExperience: "Years of Academic Experience",
         completedProjects: "Completed Web Projects",
         technologies: "Technologies",
         clientSatisfaction: "Client Satisfaction",
@@ -165,7 +170,12 @@ export const translations = {
         collaborateDescription: "I'm always interested in new projects and opportunities. If you need a website like this, have a full-time position available, or simply want to make a query, don't hesitate to contact me.",
         responseTime: "Average response time: 24 hours",
         
-        // Footer
+    // Certifications
+    certifications: "Certifications",
+    ehcaTitle: "Ethical Hacking Certification Associate (EHCA)",
+    ehcaDate: "August 2025",
+    ehcaDownload: "View Certificate",
+    // Footer
         footerText: "Simón Parisca Portfolio. By me.",
         
         // Loading

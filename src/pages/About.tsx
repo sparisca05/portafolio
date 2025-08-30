@@ -206,6 +206,38 @@ const About = () => {
                         </motion.div>
                     </div>
 
+                    {/* Certifications */}
+                    <motion.div
+                        initial={{ opacity: 0, y: 50 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.8, delay: 0.2 }}
+                        className="mt-16"
+                    >
+                        <h2 className="text-2xl font-semibold mb-8 text-center">
+                            {t("certifications")}
+                        </h2>
+                        <div className="space-y-8">
+                            <div className="bg-gray-800 rounded-lg p-6 flex flex-col md:flex-row md:items-center md:justify-between">
+                                <div>
+                                    <h3 className="text-xl font-semibold text-white">
+                                        {t("ehcaTitle")}
+                                    </h3>
+                                    <span className="text-blue-400 font-medium block mb-2">
+                                        {t("ehcaDate")}
+                                    </span>
+                                </div>
+                                <a
+                                    href="/CV/EHCA_Certification.pdf"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="mt-4 md:mt-0 px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition-colors text-center"
+                                >
+                                    {t("ehcaDownload")}
+                                </a>
+                            </div>
+                        </div>
+                    </motion.div>
+
                     {/* Experience Timeline */}
                     <motion.div
                         initial={{ opacity: 0, y: 50 }}
